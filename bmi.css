@@ -1,0 +1,222 @@
+.titletable{
+    background-color: #fb9353;
+}
+
+*::selection{
+    background-color: transparent;
+}
+
+.imc{
+    padding-left: 10px;
+    color: white;
+}
+
+.categoria{
+    padding-left: 40px;
+    color: white;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 340px;
+    background-image: url(good_food-wallpaper-3840x2400.jpg);
+    background-size: cover;
+    background-position-y: 40%;
+    position: absolute;
+    z-index: -1;
+}
+
+.container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.my-form{
+    border-radius: 10px;
+    margin-top: 150px;
+    font-family: 'Spartan', sans-serif;
+    background-image: linear-gradient(159deg,#fafafa,#eee);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    color: coral;
+}
+
+.selector{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+.my-select{
+    height: 30px;
+    border-color: rgb(206, 206, 206);
+}
+
+.input-container{
+   
+}
+
+.input-data{
+    margin: 0px;
+}
+
+.input-data label{
+    margin: 0px;
+    padding: 0px;
+}
+
+.input-data input{
+    border: 1px solid rgb(245, 229, 209);
+}
+
+.input-data{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.button{
+    margin: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fb9353;
+    color: white;
+}
+
+.risultato{
+    text-align: center;
+}
+
+.testohome2 {
+    font-family: 'Bowlby One SC', cursive;
+    color: #fb9353;
+    padding-top: 30px;
+    font-size: smaller;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}
+
+
+.testosocial{
+    font-family: 'Spartan', sans-serif;
+    color: #000000;
+}
+
+.testo{
+    font-family: 'Spartan', sans-serif;
+    color: #000000;
+}
+
+.nav-item{
+    font-family: 'Spartan', sans-serif;
+}
+
+.footer{
+    text-align: center;
+    background-color: #F79733;
+    color: #ffffff;
+    font-family: 'Staatliches', cursive;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    font-weight: bold;
+    font-size: 30;
+    text-shadow: 2px 2px #000000;;
+    -webkit-box-shadow: 1px 1px 10px 0px #000000;
+    -moz-box-shadow: 1px 1px 10px 0px #000000;
+    -o-box-shadow: 1px 1px 10px 0px #000000;
+    box-shadow: 1px 1px 10px 0px #000000;
+}
+
+body {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .testo{
+    color: #F79733;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 40;
+    text-shadow: 2px 2px 9px #000000;;
+    font-style: bold;
+    font-weight: bold;
+  
+  }
+
+  .image{
+    text-align: center;
+    margin-top: 400px;
+  }
+  
+  .topnav {
+      background-color: #F79733;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+    
+  
+  .topnav a {
+      font-family: 'Staatliches', cursive;
+      float: left;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 15px;
+      text-decoration: none;
+      font-size: 28px;
+      font-style: bold;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #000000;
+    }
+    
+  
+  .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: #F79733;
+    }
+    
+  
+  .topnav a.active {
+      background-color: #ffffff;
+      color: white;
+    }
+  
+  
+  .anim{
+    position: relative;
+    animation: animone 3s;
+  }
+  
+  @keyframes animone {
+    from {top: 400px;}
+    to {top: 0px;}
+    
+  }
+
+  .icone{
+    text-align: center;
+}

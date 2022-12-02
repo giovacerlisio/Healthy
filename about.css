@@ -1,0 +1,108 @@
+body {
+    background-color: #ffffff;
+  }
+
+
+  .containerinfo{
+    margin:0px auto;
+    text-align:center;
+    margin-top: 100px;
+    display: block;
+  }
+  
+  .testo{
+    color: #F79733;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 40;
+    font-style: bold;
+    font-weight: bold;
+  
+  }
+
+  .titolo{
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 60;
+    text-shadow: 2px 2px 9px #000000;;
+    font-style: bold;
+    font-weight: bold;
+  }
+
+  .image{
+    text-align: center;
+    margin-top: 400px;
+  }
+  
+  .topnav {
+      background-color: #F79733;
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+    
+  
+  .topnav a {
+      font-family: 'Staatliches', cursive;
+      float: left;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 15px;
+      text-decoration: none;
+      font-size: 28px;
+      font-style: bold;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px #000000;
+    }
+    
+  
+  .topnav a:hover {
+      background-color: rgb(255, 255, 255);
+      color: #F79733;
+    }
+    
+  
+  .topnav a.active {
+      background-color: #ffffff;
+      color: white;
+    }
+  
+    footer {
+      text-align: center;
+      background-color: #F79733;
+      color: #ffffff;
+      font-family: 'Staatliches', cursive;
+      position: fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      font-weight: bold;
+      font-size: 30;
+      text-shadow: 2px 2px #000000;;
+      -webkit-box-shadow: 1px 1px 10px 0px #000000;
+      -moz-box-shadow: 1px 1px 10px 0px #000000;
+      -o-box-shadow: 1px 1px 10px 0px #000000;
+      box-shadow: 1px 1px 10px 0px #000000;
+    }
+  
+  .anim{
+    position: relative;
+    animation: animone 3s;
+  }
+  
+  @keyframes animone {
+    from {top: 400px;}
+    to {top: 0px;}
+    
+  }
+
+  .icone{
+    text-align: center;
+}
